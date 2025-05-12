@@ -1,9 +1,8 @@
 # [Wix MCP](https://mcp.wix.com)
 
-> **Share your feedback**<br/>
-> Want to share feedback about your MCP experience? Tell your AI client to submit feedback to Wix. The client will prompt you for your message and send it directly to us. We review all feedback as part of our ongoing effort to improve.
-
 Wix now provides a [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server that allows you to work with Wix tools and services in your chosen AI client. By configuring the Wix MCP server, you enable your client to search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites. This saves you the time and effort of finding and applying the information in the documentation yourself.
+
+For examples on how to use the Wix MCP server, see our [sample prompts](https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/mcp-sample-prompts).
 
 ## Configure the Wix MCP
 

@@ -1,0 +1,9 @@
+{
+  "name": "wix-mcp",
+  "version": "1.0.0",
+  "mcpServers": {
+    "wix-mcp": {
+      "httpUrl": "https://mcp.wix.com/mcp"
+    }
+  }
+}

@@ -38,6 +38,7 @@ Depending on your client, you may be able to configure the MCP server through th
 - [Instructions for Cursor](https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers)
 - [Instructions for Windsurf](https://docs.windsurf.com/windsurf/mcp)
 - [Instructions for VS Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server-to-your-workspace)
+- [Instructions for Gemini CLI](https://google-gemini.github.io/gemini-cli/docs/extension.html#installing-an-extension)
 
 ## Available tools
 

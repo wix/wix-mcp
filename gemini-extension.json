@@ -1,6 +1,7 @@
 {
   "name": "wix",
   "version": "1.0.0",
+  "description": "Enable Gemini CLI to search the Wix documentation, write code for the Wix platform, and make API calls on Wix sites.",
   "mcpServers": {
     "wix-mcp": {
       "httpUrl": "https://mcp.wix.com/mcp",

@@ -18,16 +18,12 @@ To add the Wix MCP server to your agent, include the following JSON object in yo
 
 ```javascript
 {
- "mcpServers": {
-    "wix-mcp-remote": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@wix/mcp-remote",
-        "https://mcp.wix.com/sse"
-      ]
-    }
-  }
+  "mcpServers": {
+    "wix-mcp-remote": {
+      "type": "http",
+      "url": "https://mcp.wix.com/mcp"
+    }
+  }
 }
 ```
 

@@ -52,8 +52,8 @@ The Wix MCP server provides the following tools in the table below. All of these
 | ReadFullDocsArticle            | Fetch the full content of an article by article URL.                                 |
 | ReadFullDocsMethodSchema       | Get the full request and response schema of an API method.                           |
 | ListWixSites                   | Query the sites for a Wix account.                                                   |
-| CallWixSiteAPI                 | Perform an action or query for a given account and selected site.                    |
-| ManageWixSite                  | Perform a site-level action, such as creating a site.                                |
+| CallWixSiteAPI                 | Call a site-scoped Wix API (e.g. eCommerce, Stores, Bookings) for a selected site ID. |
+| ManageWixSite                  | Account-level only: create, update, or publish a site. Cannot make site-scoped data calls — use CallWixSiteAPI for those. |
 | SupportAndFeedback             | Prompt the user for feedback and send it to Wix.                                     |
 
 ## Troubleshooting

@@ -10,11 +10,21 @@ This section shows you the basic configuration you need to add to your AI tool t
 
 ### Before you begin
 
-- Make sure you have [Node.js](https://nodejs.org/en) version 19.9.0 or higher installed.
+- If you use the local `npx` proxy in Troubleshooting, install [Node.js](https://nodejs.org/en) version 19.9.0 or higher.
 
-### Required configuration
+### Claude Desktop and Claude Web
 
-To add the Wix MCP server to your agent, include the following JSON object in your MCP server configuration:
+Use the [official Wix connector](https://claude.com/connectors/wix):
+
+1. Open Claude's connector settings and find **Wix** in the connector directory.
+2. Select **Connect** and sign in to your Wix account.
+3. Enable Wix in your conversation.
+
+If your organization manages connectors, ask an owner to enable Wix first. See [Claude's connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) for current availability and access requirements. This remote connection is managed through your Claude account and does not require a local Node.js process.
+
+### Other MCP clients
+
+For clients that accept an HTTP MCP configuration, include the following JSON object in your MCP server configuration:
 
 ```javascript
 {
@@ -29,8 +39,6 @@ To add the Wix MCP server to your agent, include the following JSON object in yo
 
 Depending on your client, you may be able to configure the MCP server through the client settings, or even ask the client itself to add the configuration. See instructions on adding MCP servers for common AI tools:
 
-- [Instructions for Claude Desktop](https://modelcontextprotocol.io/quickstart/user#2-add-the-filesystem-mcp-server)
-- [Instructions for Claude Web](https://support.anthropic.com/en/articles/11175166-about-custom-integrations-using-remote-mcp)
 - [Instructions for Cursor](https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers)
 - [Instructions for Windsurf](https://docs.windsurf.com/windsurf/mcp)
 - [Instructions for VS Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server-to-your-workspace)

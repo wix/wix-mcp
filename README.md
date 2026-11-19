@@ -36,6 +36,28 @@ Depending on your client, you may be able to configure the MCP server through th
 - [Instructions for VS Code](https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server-to-your-workspace)
 - [Instructions for Gemini CLI](https://geminicli.com/docs/extensions/#installing-an-extension)
 
+## Wixel MCP
+
+[Wixel](https://www.wix.com/wixel) is the AI design studio by Wix. Its MCP server lets your AI client create images, logos, slide decks, videos and documents, and run quick image edits such as background removal, upscaling and vectorizing.
+
+[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en-US/install-mcp?name=wixel&config=eyJ1cmwiOiJodHRwczovL21jcC53aXguY29tL3dpeGVsP3JlZj1jdXJzb3IifQ%3D%3D)
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Wixel-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=wixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dvscode%22%7D)
+
+For other clients, add this server to your MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "wixel": {
+      "type": "http",
+      "url": "https://mcp.wix.com/wixel?ref=github"
+    }
+  }
+}
+```
+
+In Claude, add `https://mcp.wix.com/wixel?ref=github` as a custom connector. You sign in with your Wix account the first time you use it.
+
 ## Available tools
 
 The Wix MCP server provides the following tools in the table below. All of these tools are enabled by default.
